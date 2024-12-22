@@ -1,0 +1,126 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Черный */
+    color: #eee; /* Белый/светло-серый */
+    line-height: 1.6;
+}
+.container {
+      width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header {
+    background-color: #1a1a1a; /* Темно-серый */
+     border-bottom: 2px solid #d43e3e; /* Красный */
+    padding: 10px 0;
+    text-align: center;
+}
+header h1 {
+    color: #d43e3e; /* Красный */
+    margin: 0;
+}
+.gold{
+    color: #ffd700;
+}
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+header nav ul li a {
+    color: #eee; /* Белый */
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+header nav ul li a:hover, header nav ul li a.active {
+     background-color: #d43e3e; /* Красный на hover */
+}
+
+main {
+    padding: 20px 0;
+}
+main h2 {
+     color: #d43e3e; /* Красный */
+    margin-bottom: 20px;
+}
+main p {
+    margin-bottom: 15px;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+.button {
+    display: inline-block;
+    background-color: #d43e3e; /* Красный */
+    color: #eee; /* Белый */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.button:hover {
+   background-color: #a82c2c; /* Более темный красный */
+}
+
+footer {
+    background-color: #1a1a1a; /* Темно-серый */
+      border-top: 2px solid #d43e3e; /* Красный */
+    color: #eee; /* Белый */
+    padding: 10px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+.main-image{
+    display: block;
+    max-width: 50%;
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #d43e3e;
+}
+.member {
+    background-color: #1a1a1a;
+    padding: 15px;
+     margin-bottom: 20px;
+    border-radius: 5px;
+}
+.member h3 {
+    color: #d43e3e;
+   margin-bottom: 10px;
+   border-bottom: 1px solid #666;
+    padding-bottom: 5px;
+}
+.event {
+     background-color: #1a1a1a;
+    padding: 15px;
+    margin-bottom: 20px;
+     border-radius: 5px;
+}
+.event h3 {
+    color: #d43e3e;
+   margin-bottom: 10px;
+     border-bottom: 1px solid #666;
+    padding-bottom: 5px;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+}
+form input,
+form textarea {
+     margin-bottom: 15px;
+    padding: 8px;
+     border: 1px solid #666;
+   background-color: #333;
+    color: #eee;
+   border-radius: 3px;
+ }
